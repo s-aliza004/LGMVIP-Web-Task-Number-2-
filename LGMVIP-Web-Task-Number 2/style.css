@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background-size: cover;
+    background-color: rgb(11, 150, 160);
+}
+
+.gender {
+    margin-left: -6px;
+}
+
+
+.btn {
+
+
+    width: 142px;
+    position: relative;
+    left: 189px;
+    background-color: rgb(11, 150, 160);
+    outline: rgb(11, 150, 160);
+    color: white;
+    border: 4px solid rgb(11, 150, 160);
+    height: 5vh;
+    padding: 2px;
+
+}
+
+.btn:hover {
+    color: rgb(11, 150, 160);
+    background-color: whitesmoke;
+
+
+}
+
+
+
+.registeredform {
+    left: 700px;
+    position: absolute;
+    box-shadow: 10px -8px 37px #148dac;
+    background-color: white;
+    border-radius: 24px;
+    width: 46%;
+}
+
+
+.col1 {
+    width: 2px;
+}
+
+.col2 {
+    width: 260px;
+}
+
+.col3 {
+    width: 200px;
+}
+
+.registerpage {
+    box-shadow: 10px -8px 37px #106a70;
+    background-color: white;
+    border-radius: 24px;
+}
+
+.table-image {
+    max-width: 21vh;
+    max-height: 40vh;
+    border: 1px solid white;
+}
+
+.textfield {
+    border-radius: 24px;
+    border: 3px solid rgb(11, 150, 160);
+    box-shadow: -4px 5px 12px #3e3f5b;
+    width: 95%;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.heading2 {
+    font-family: sans-serif;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #148dac;
+    font-style: italic;
+
+}
+
+.heading1 {
+    font-family: sans-serif;
+    cursor: pointer;
+    text-decoration: underline;
+    box-shadow: 5px 13px 80px #62c7e6;
+    font-style: italic;
+
+}
+
+#flexRadioDefault2,
+#flexRadioDefault1,
+#inlineCheckbox1,
+#inlineCheckbox2,
+#inlineCheckbox3 {
+    cursor: pointer;
+}
+
+.table {
+    border-color: #148dac;
+}
